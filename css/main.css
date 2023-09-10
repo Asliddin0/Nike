@@ -1,0 +1,224 @@
+:root {
+    --Arial: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    --primary-color: #C1BC45;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+/* header */
+.header {
+    background: url(../img/Rectangle\ 1.png) no-repeat center center / cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-img {
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__link {
+    padding: 40px 20px 20px 20px;
+    display: inline-block;
+    color: #4D4D4D;
+    font-family: var(--Arial);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.header__link:hover {
+    color: #fff;
+    background: #C1BC45;
+}
+
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.header__brend {
+    color: #C1BC45;
+    font-family: var(--Arial);
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__br-txt {
+    color: #4D4D4D;
+    font-family: var(--Arial);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__br-txt::after {
+    content: "PROWEB";
+    color: #151515;
+    font-family: var(--Arial);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* header */
+/* main */
+.main {
+    padding: 100px 0;
+    
+}
+
+.main__cont {
+    display: flex;
+    gap: 30px;
+}
+
+.main__colum1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 565px;
+    width: 100%;
+}
+
+.main__column1-h1 {
+    padding: 50px 0 25px 0;
+    color: #000;
+    font-family: var(--Arial);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main__column1-h1::after {
+    content: " Nike Neoline";
+    color: #000;
+    font-family: var(--Arial);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main__column1-txt {
+    color: #4D4D4D;
+    font-family: var(--Arial);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+
+.main__column2-link {
+    display: inline-block;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    padding: 20px 0 23px 10px ;
+    border: 4px solid #C3C3C3;
+    background: #FFF;
+    transition: .5s;
+}
+
+.main__column2-link:hover {
+    border: 4px solid #C1BC45;
+    border-color: rgba(193, 188, 69, 1);
+background-color: #FFF;
+}
+
+.colum2-h1 {
+    color: #000;
+    font-family: var(--Arial);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.column2-text {
+    color: #000;
+    font-family: var(--Arial);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    padding-top: 10px;
+}
+/* main */
+/* footer */
+.footer {
+    background-color: #D9D9D9;
+    
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 100px 0;
+}
+
+.footer__list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    
+}
+
+.footer__link {
+    display: inline-block;
+    color: #4D4D4D;
+    font-family: var(--Arial);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    transition: .5s;
+    cursor: pointer;
+    position: relative;
+}
+
+.footer__link:hover {
+    color:rgba(255, 0, 0, 1);
+}
+
+.footer__link:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(255, 0, 0, 1);
+    position: absolute;
+}
+
+/* footer */
